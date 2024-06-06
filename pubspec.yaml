@@ -1,0 +1,53 @@
+name: imag
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  google_sign_in: ^6.2.1
+  uni_links: ^0.5.1
+  cloud_firestore: ^5.0.0
+  get: ^4.6.6
+  provider: ^6.1.2
+  sqflite: ^2.3.3+1
+  image_picker: ^1.0.1
+  firebase_storage: ^12.0.0
+  file_picker: ^8.0.3
+  google_maps_flutter: ^2.6.1
+  connectivity: ^3.0.6 
+  
+
+  flutter_locales: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/set.png
+    - assets/profile.png
+    - assets/main.png
+    - assets/edit.png
+    - assets/logout.png
+    - assets/user.png
+    - assets/Group.png
+    - assets/sandyq.png
+    - assets/coin.png
+    - assets/tiyn.png
+    - assets/google.png
+    - assets/github.png
+    - assets/facebook.png
+    - assets/imglogo.png
+    - assets/map.png
